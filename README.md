@@ -1,9 +1,9 @@
 # 2018 Winter Study
 
 [![Gitter](https://img.shields.io/gitter/room/Lilyheart/repo.js.svg?maxAge=2592000)](https://gitter.im/Lilyheart/LilyPrograms)
-[![GitHub issues](https://img.shields.io/github/issues/Lilyheart/2018_winter_study.svg)](https://github.com/Lilyheart/2018_winter_study/issues)
-[![license](https://img.shields.io/github/license/Lilyheart/2018_winter_study.svg)](https://github.com/Lilyheart/2018_winter_study/blob/gh-pages/LICENSE)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7384b52418ff443bbb4c7de81bd6e5a8)](https://www.codacy.com/app/lilyheart/2018_winter_study?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lilyheart/2018_winter_study&amp;utm_campaign=Badge_Grade)
+[![GitHub issues](https://img.shields.io/github/issues/Lilyheart/data_science_study.svg)](https://github.com/Lilyheart/2018_winter_study/issues)
+[![license](https://img.shields.io/github/license/Lilyheart/data_science_study.svg)](https://github.com/Lilyheart/2018_winter_study/blob/gh-pages/LICENSE)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2b23e38b84104532964cbe77c54f93ed)](https://www.codacy.com/app/lilyheart/data_science_study?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lilyheart/data_science_study&amp;utm_campaign=Badge_Grade)
 
 ## Purpose
 

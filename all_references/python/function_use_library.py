@@ -16,6 +16,18 @@ Line""")  # the \ means the line return is ignored
 
 print("weird" " concat")  # literals only - not variables
 
+name, age, height = "John Doe", 21, 5.75
+generic_names = ["John Doe", "Jane Doe"]
+print("%s is %d years old and is %.2f feet tall" % (name, age, height))
+print("Names %s" % generic_names)
+print("John's age in hex %x/%X" % age)
+
+print(name[0:10:2])  # start, stop, skip - extended slice syntax
+print(name[::-1])  # string reverse
+print(name.startswith("A"))
+print(name.endswith("A"))
+print(name.split(" "))
+
 # Exponentation (2^4)
 print(2 ** 4)
 
@@ -45,6 +57,12 @@ x > 5 and x < 18
 x < 5 or x > 10
 not(x < 5)
 
+y = [1, 2, 3]
+z = [1, 2, 3]
+
+print(y == z)
+print(y is z)
+
 # loops
 z = 6
 if z % 2 == 0:
@@ -61,11 +79,18 @@ print(str(y))
 while y > 1:
     y = y / 4
     print(str(y))
+else:
+    print("Done!")
+
+# break - exit for or while - skips else
+# continue - break current loop
 
 # for loops - iteration
 height_list = [1.73, 1.68, 1.71, 1.89]
 for height in height_list:
     print(height)
+else:
+    print("Done!")
 
 for index, height in enumerate(height_list):
     print("index " + str(index) + ": " + str(height))
@@ -78,6 +103,9 @@ for letter in "family":
 
 for x in range(10):  # 0 through 9 for 10 iterations
     print(x)
+
+# py2 range creates list up front, xrange creates generator
+# py3 range behaves like xrange
 
 # iterable - object associated with iter() method
 # iterator - associated next() method
@@ -95,6 +123,8 @@ print(sum(iter(height_list)))
 height_names = ["sam", "sally", "mom", "dad"]
 family_type_zip = zip(height_names, height_list)  # iterable
 family_type_list = list(family_type_zip)
+
+"sam" in height_names  # check in iterable
 
 print(*family_type_zip)
 

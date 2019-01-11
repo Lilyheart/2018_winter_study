@@ -11,3 +11,10 @@ def sqrt(radicand):
 sqrt(25)
 sqrt("this is an error")
 sqrt(-9)
+
+####
+# Error Types
+####
+
+IndexError
+TypeError
